@@ -1,6 +1,13 @@
 # Analsis Taller N°1
 ## 1. Del código ejemplo proporcionado en el taller "https://www.codesansar.com/numerical-methods/system-of-linear-equation-using-jacobi-iteration-using-c-programming.htm" tuvimos que hacer una modificacione spara que funcionara. 
 
+* Presentado por:
+* Deivyd Dario Parra Perilla - 2162916
+* Juan Diego Atehortua Duque - 2182064
+
+
+
+
 - Al ejecutar el "time ./jacobi" e ingresar el error tolerable se puede ver cómo cada  método de optimización "01", "02", "03". dará tiempos de reacción diferentes en los cuales, a medida que aumentamos en la numeración los tiempos de ejecución serán más bajos, por ello podemos saber que los métodos de optimización mostrarán mejores resultados a medida que aumentan, mostrando que el mejor es el "03".
 
 [ddparrap@guane09 taller01]$ time ./jacobi
