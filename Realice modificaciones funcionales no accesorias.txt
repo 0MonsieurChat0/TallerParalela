@@ -1,0 +1,25 @@
+Bonus: Realice modificaciones "funcionales no accesorias" a los códigos tanto de ejemplo como el encontrado de prueba con punteros, resaltando en la entrega cuales fueron las modificaciones realizadas.
+
+#include<stdio.h>
+
+// Función para intercambiar los valores de dos variables utilizando punteros
+void swap(int *x, int *y) {
+    *x = *x ^ *y; // Intercambio utilizando XOR
+    *y = *x ^ *y;
+    *x = *x ^ *y;
+}
+
+int main() {
+    int a = 10, b = 20;
+
+    printf("Antes del intercambio:\n");
+    printf("a = %d, b = %d\n", a, b);
+
+    // Llamada a la función swap para intercambiar los valores de a y b
+    swap(&a, &b);
+
+    printf("Después del intercambio:\n");
+    printf("a = %d, b = %d\n", a, b);
+
+    return 0;
+}
